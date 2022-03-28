@@ -1,0 +1,23 @@
+Routes:
+    - 404 handler
+    - 500 handler
+    - status - done
+    - signup - done
+    - login - done
+    - logout
+    - token
+    - forgot password
+    - reset password
+
+
+Schema:
+    Users
+        - email R 
+        - password R 
+        - username R
+        - resetToke (O)
+        - resetTokenExp (O)
+    
+    Chat
+        - email (R)
+        - message (R)
